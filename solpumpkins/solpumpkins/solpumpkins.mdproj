@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{82DB6B1A-D267-46C9-97DC-3F89B5D0FC1F}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="assets\.DS_Store" />
+    <None Include="assets\css\.DS_Store" />
+    <None Include="assets\css\main.css" />
+    <None Include="assets\css\fontawesome-all.min.css" />
+    <None Include="assets\css\noscript.css" />
+    <None Include="assets\css\images\arrow.svg" />
+    <None Include="assets\js\breakpoints.min.js" />
+    <None Include="assets\js\util.js" />
+    <None Include="assets\js\jquery.scrolly.min.js" />
+    <None Include="assets\js\jquery.dropotron.min.js" />
+    <None Include="assets\js\jquery.min.js" />
+    <None Include="assets\js\main.js" />
+    <None Include="assets\js\jquery.scrollex.min.js" />
+    <None Include="assets\js\browser.min.js" />
+    <None Include="assets\webfonts\fa-solid-900.ttf" />
+    <None Include="assets\webfonts\fa-regular-400.svg" />
+    <None Include="assets\webfonts\fa-regular-400.woff2" />
+    <None Include="assets\webfonts\fa-solid-900.eot" />
+    <None Include="assets\webfonts\fa-brands-400.svg" />
+    <None Include="assets\webfonts\fa-regular-400.woff" />
+    <None Include="assets\webfonts\fa-brands-400.eot" />
+    <None Include="assets\webfonts\fa-solid-900.svg" />
+    <None Include="assets\webfonts\fa-solid-900.woff" />
+    <None Include="assets\webfonts\fa-regular-400.ttf" />
+    <None Include="assets\webfonts\fa-solid-900.woff2" />
+    <None Include="assets\webfonts\fa-brands-400.woff2" />
+    <None Include="assets\webfonts\fa-brands-400.woff" />
+    <None Include="assets\webfonts\fa-brands-400.ttf" />
+    <None Include="assets\webfonts\fa-regular-400.eot" />
+    <None Include="assets\sass\noscript.scss" />
+    <None Include="assets\sass\main.scss" />
+    <None Include="assets\sass\libs\_functions.scss" />
+    <None Include="assets\sass\libs\_vars.scss" />
+    <None Include="assets\sass\libs\_breakpoints.scss" />
+    <None Include="assets\sass\libs\_vendor.scss" />
+    <None Include="assets\sass\libs\_mixins.scss" />
+    <None Include="assets\sass\libs\_html-grid.scss" />
+    <None Include="index.html" />
+    <None Include="LICENSE.txt" />
+    <None Include="images\hero-bg.png" />
+    <None Include="images\pump-about.fw.png" />
+    <None Include="images\pump-hero.gif" />
+    <None Include="images\pump-logo.png" />
+    <None Include="images\side-img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+</Project>
